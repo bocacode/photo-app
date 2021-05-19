@@ -19,6 +19,16 @@ body {
   align-items: center;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 9;
+  width: 100vw;
+  padding: 16px;
+}
+
 button {
   background-color: white;
   padding: 10px 20px;
@@ -57,4 +67,17 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.save-btn {
+  position: fixed;
+  top: 4px;
+  right: 8px;
+  z-index: 20;
+  background: dodgerblue;
+  color: white;
+}
+
+.crop-area {
+  top: 44px;
 }
